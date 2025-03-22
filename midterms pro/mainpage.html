@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mansanadis Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap">
+    <link href="https://db.onlinewebfonts.com/c/f1195bbd6aaa8a862f7ab23d4c363f3e?family=SofiaRoughBlackInline" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&display=swap" rel="stylesheet">
+
+<style> 
+body {
+    background-image: url(https://img.freepik.com/free-photo/overhead-view-coffee-cup-keyboard-camera-paper-white-background_23-2148042112.jpg?t=st=1742571045~exp=1742574645~hmac=62a3b1914285858ca76dd754def804a031b69d874883ce2979e2116e12e4995f&w=996);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    margin: 15%;
+    text-align: center;
+    overflow: hidden;
+}
+h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: 'Bodoni Moda', serif;
+    margin-bottom: 5px;
+}
+h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    line-height: 1.2;
+    font-family: 'SofiaRoughBlackInline', sans-serif;
+}
+/* ======= MAIN NAVIGATION (About, Gallery, Plans) ======= */
+.main-nav {
+    font-family: 'SofiaRoughBlackInline', sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 270px;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    position: relative;
+}
+
+/* Underline Hover Effect */
+.main-nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: rgb(189, 179, 179);
+    transition: width 0.4s;
+}
+
+/* Hover Effect */
+.main-nav a:hover::after {
+    width: 100%;
+}
+
+.main-nav a:hover {
+    color: #000000;
+    transform: scale(1.05);
+}
+/* ======= SOCIAL MEDIA NAVIGATION ======= */
+.social-nav {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 20px;
+}
+/* Social Media Icons Size */
+.social-nav a img {
+    width: 270px;
+    transition: transform 0.3s ease-in-out;
+}
+/* Social Media Hover Effect */
+.social-nav a img:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+}
+    </style>
+</head>
+<body>
+    <h1>film_dnl</h1>
+    <h2>Capturing hearts through lenses</h2>
+    <nav class="main-nav">
+        <a href="about.html">ABOUT</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="plans.html">PLANS</a>
+    </nav>
+    <nav class="social-nav">
+        <a href="https://www.instagram.com/de.nyel/">
+            <img src="images/2-removebg-preview.png" alt="Instagram account of the artist">
+        </a>
+        <a href="https://m.me/daniel.mansanadis.3">
+            <img src="images/3-removebg-preview.png" alt="Messenger account of the artist">
+        </a>
+        <a href="https://www.linkedin.com/in/john-daniel-mansanadis-7a476a355">
+            <img src="images/4-removebg-preview.png" alt="LinkedIn account of the artist">
+        </a>
+    </nav>
+</body>
+</html>

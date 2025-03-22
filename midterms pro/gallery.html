@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://db.onlinewebfonts.com/c/f1195bbd6aaa8a862f7ab23d4c363f3e?family=SofiaRoughBlackInline" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&display=swap" rel="stylesheet">
+    <title>Gallery</title>
+    <style>
+       body {
+            background-color: white;
+            color: #000000;
+            margin: 0;
+            text-align: center;
+        }
+
+        .title-nav a {
+            display: inline-block;
+            font-size: 4rem;
+            font-weight: 700;
+            font-family: 'Bodoni Moda', serif;
+            margin-bottom: 0px;
+            text-decoration: none;
+            color: black;
+        }
+        .title-nav a:hover {
+            color: rgb(129, 208, 245);
+            opacity: 0.7;
+        }
+        .main-nav {
+            font-family: 'SofiaRoughBlackInline', sans-serif;
+            display: flex;
+            justify-content: center;
+            gap: 70px;
+            align-items: center;
+            margin-top: 0px;
+        }
+        .main-nav a {
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            background: linear-gradient(to right, #63c5da, #0047ab);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .main-nav a:hover {
+            opacity: 0.7;
+        }
+        .gallery-container {
+            width: 90%;
+            margin: 50px auto; /* Adds space above the gallery */
+            column-count: 3;
+            column-gap: 10px;
+        }
+        .gallery-item {
+            width: 100%;
+            margin-bottom: 15px;
+            break-inside: avoid; /* Prevents breaking images awkwardly */
+        }
+
+        .gallery-item img {
+            width: 100%;
+            display: block;
+        }
+        .footer-icons {
+        display: flex;
+        justify-content: center;
+        gap: 0px;
+        }
+
+        .footer-icons img {
+        width: 250px; /* Adjust size */
+        height: 150px;
+        border-radius: 50%;
+        transition: 0.3s;
+        }
+        .footer-icons img:hover {
+            opacity: 0.7;
+        }
+</style>
+</head>
+<body>
+    <h1 class="title-nav"><a href="mainpage.html">film_dnl</a></h1>
+    <nav class="main-nav">
+        <a href="about.html">ABOUT</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="plans.html">PLANS</a>
+    </nav>
+    <div class="gallery-container">
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://i.pinimg.com/474x/6f/44/f6/6f44f657f012ce72a6bce1328fe60386.jpg" alt="Photo 1">
+            </div>
+            <div class="gallery-item">
+                <img src="https://i.pinimg.com/736x/84/ec/ba/84ecbab8b8ade4817e3c64e2aa793876.jpg" alt="Photo 2">
+            </div>
+            <div class="gallery-item">
+                <img src="https://i.pinimg.com/736x/09/f4/92/09f4920793713c5230cc03bae9a92dfe.jpg" alt="Photo 3">
+            </div>
+            <div class="gallery-item">
+                <img src="https://i.pinimg.com/474x/90/52/15/905215ab70dec958cccac5e996a78cac.jpg" alt="Photo 4">
+            </div>
+            <div class="gallery-item">
+                <img src="https://i.pinimg.com/736x/93/0d/c1/930dc1c70ebf0dcc6953fca7d5c62ce0.jpg"alt="Photo 5">
+            </div>
+            <div class="gallery-item">
+                <img src="https://i.pinimg.com/736x/aa/29/8d/aa298d14e9c004273e78f97812900c8a.jpg" alt="Photo 6">
+            </div>
+            <div class="gallery-item">
+                <img src="https://i.pinimg.com/736x/10/54/57/105457ff6d053ac5eed4ba65913a8c3c.jpg" alt="Photo 7">
+            </div>
+            <div class="gallery-item">
+                <img src="https://i.pinimg.com/736x/2a/fa/f7/2afaf74b7c676077a63bdec87b892db2.jpg" alt="Photo 8">
+            </div>
+            <div class="gallery-item">
+                <img src="https://i.pinimg.com/474x/a8/33/5a/a8335a81c305e32ac0d52bec87496e46.jpg" alt="Photo 9">
+            </div>
+            <div class="gallery-item">
+                <img src="https://i.pinimg.com/474x/74/d3/6d/74d36dd0bb2ea648af9c7b63b048480c.jpg" alt="Photo 10">
+            </div>
+            <div class="gallery-item">
+                <img src="https://i.pinimg.com/736x/8b/cf/63/8bcf6382a67500d05fd3624a27fdd7db.jpg" alt="Photo 11">
+            </div>
+            <div class="gallery-item">
+                <img src="https://i.pinimg.com/736x/18/69/1f/18691f689c593bf5435dd02e6ffd9aae.jpg" alt="Photo 12">
+            </div>
+            <div class="gallery-item">
+                <img src="https://i.pinimg.com/736x/48/a4/48/48a448e5496700df859dabe0ba8040d7.jpg" alt="Photo 13">
+            </div>
+            <div class="gallery-item">
+                <img src="https://i.pinimg.com/736x/c7/dc/fd/c7dcfd90679d28ebda1c8627ec70cefd.jpg" alt="Photo 14">
+            </div>
+            <div class="gallery-item">
+                <img src="https://i.pinimg.com/474x/44/cd/08/44cd0846742937f9ad6334f834fdc380.jpg" alt="Photo 15">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-icons">
+            <a href="https://www.instagram.com/de.nyel/">
+            <img src="images/2-removebg-preview.png" alt="instagram account of the artist">
+            </a>
+            <a href="https://m.me/daniel.mansanadis.3">
+            <img src="images/3-removebg-preview.png" alt="Messenger account of the artist">
+            </a>
+            <a href="https://www.linkedin.com/in/john-daniel-mansanadis-7a476a355">
+            <img src="images/4-removebg-preview.png" alt="linkedin account of the artist">
+        </a>
+        </div>
+    </footer>
+</body>
+</html>

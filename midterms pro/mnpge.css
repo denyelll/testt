@@ -1,0 +1,82 @@
+body {
+    background-image: url(images/mainbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    margin: 15%;
+    text-align: center;
+    overflow: hidden;
+}
+h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: 'Play fair display', serif;
+    margin-bottom: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    line-height: 1.2;
+    font-family: 'monterchi', serif;
+}
+/* ======= MAIN NAVIGATION (About, Gallery, Plans) ======= */
+.main-nav {
+    font-family: 'monterchi book', serif;
+    display: flex;
+    justify-content: center;
+    gap: 270px;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    position: relative;
+}
+
+/* Underline Hover Effect */
+.main-nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: rgb(189, 179, 179);
+    transition: width 0.4s;
+}
+
+/* Hover Effect */
+.main-nav a:hover::after {
+    width: 100%;
+}
+
+.main-nav a:hover {
+    color: #000000;
+    transform: scale(1.05);
+}
+/* ======= SOCIAL MEDIA NAVIGATION ======= */
+.social-nav {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 20px;
+}
+/* Social Media Icons Size */
+.social-nav a img {
+    width: 270px;
+    transition: transform 0.3s ease-in-out;
+}
+/* Social Media Hover Effect */
+.social-nav a img:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+}
+
+
